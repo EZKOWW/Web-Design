@@ -1,1 +1,1 @@
-Petit projets sympathiques
+Petits projets sympathiques
