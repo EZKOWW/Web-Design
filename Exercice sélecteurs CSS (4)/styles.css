@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    font-size: 96px;
+    text-align: center;
+}
+
+.para1::first-letter {
+    color: blueviolet;
+}
+
+p::first-letter {
+    font-size: 32px;
+    text-justify: justify;
+}
+
+.para1 ~ p::first-letter {
+    color: green;
+}
+
+#consignesTitre:hover {
+    color: blue;
+}
