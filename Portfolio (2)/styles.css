@@ -1,0 +1,27 @@
+body {
+    margin: 0 30px;
+}
+
+#nav_bg ul {
+    list-style-type: none;
+    margin: 0 -30px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#nav_bg li {
+    float: left;
+}
+
+#nav_bg li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+#nav_bg li:hover {
+    background-color: #444;
+    transition: background-color 200ms;
+}
