@@ -22,12 +22,17 @@ header, footer {
     background-color: green;
 }
 
-article {
-    background-color: aliceblue;
+aside {
+    background-color: brown;
+}
+
+#article {
+    height: 100%;
+    width: 100%;
 }
 
 .container2 {
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     min-height: 60vh;
 }
